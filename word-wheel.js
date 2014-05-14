@@ -23,7 +23,7 @@ function drawWordWheel(ctx, radius, words) {
       ctx.fillText(word, radius, 0);
     }
     ctx.restore();
-  }
+  };
 
   var angleStep = (Math.PI*2)/words.length;
   words.forEach(function(word, i) {
