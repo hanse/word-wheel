@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.8;
+  position: relative;
+}
+canvas {
+  background: #000;
+  border: 5px solid #333;
+  margin: 20px;
+}
+
+.content {
+  background: #ccc;
+  position: fixed;
+  left: 20%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.sidebar {
+  position: fixed;
+  padding-top: 50%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 20%;
+  padding: 20px;
+}
+
+input, textarea {
+  border: 2px solid #ddd;
+  font-size: 16px;
+  padding: 10px;
+  color: 333;
+  display: block;
+  width: 100%;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  font-size: 16px;
+  background: #c0392b;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}

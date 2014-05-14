@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Word Wheel</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="content">
+      <canvas width="1024" height="768"></canvas>
+    </div>
+    <div class="sidebar">
+      <h1>Word Wheel</h1>
+      <form>
+        <label for="radius">Radius</label>
+        <input type="number" id="radius" value="100">
+        <label for="words">Comma-separated list of words</label>
+        <textarea name="words">This is just a test</textarea>
+        <button type="submit">Generate</button>
+      </form>
+    </div>
+    <script src='word-wheel.js'></script>
+  </body>
+</html>
